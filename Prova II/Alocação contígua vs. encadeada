@@ -1,0 +1,7 @@
+a) Organização dos dados na memória RAM
+
+No modelo de alocação contígua, os elementos são armazenados em posições consecutivas da memória RAM, formando um bloco contínuo. Já no modelo de alocação encadeada, cada elemento é armazenado em um local diferente da memória e contém uma referência (ponteiro) para o próximo elemento da estrutura.
+
+b) Complexidade de acesso ao enésimo elemento
+
+No modelo contíguo, o acesso ao enésimo elemento possui complexidade O(1) porque o endereço de memória pode ser calculado diretamente a partir do índice. Já no modelo encadeado, o acesso possui complexidade O(n), pois é necessário percorrer os nós um a um desde o início da lista até alcançar a posição desejada.
